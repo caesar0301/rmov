@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Movr by caesar0301</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Movr</h1>
+        <p>Human mobility data analysis and visualization in R.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/caesar0301/movr" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/caesar0301/movr/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/caesar0301/movr/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="movr" class="anchor" href="#movr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>movr</h1>
+
+<p><a href="https://travis-ci.org/caesar0301/movr"><img src="https://travis-ci.org/caesar0301/movr.svg" alt="Build Status"></a></p>
+
+<p>Human mobility data analysis and visualization in R.</p>
+
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<pre><code>&gt; sudo apt-get install cmake pkg-config libglib2.0-dev
+</code></pre>
+
+<p>On Mac OS X</p>
+
+<pre><code>&gt; brew install cmake pkg-config glib
+</code></pre>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install</h2>
+
+<p>Currently only support installation from Github:</p>
+
+<div class="highlight highlight-source-r"><pre>install.packages(<span class="pl-s"><span class="pl-pds">"</span>devtools<span class="pl-pds">"</span></span>)
+<span class="pl-e">devtools</span><span class="pl-k">::</span>install_github(<span class="pl-s"><span class="pl-pds">"</span>caesar0301/movr<span class="pl-pds">"</span></span>)</pre></div>
+
+<h2>
+<a id="visualization" class="anchor" href="#visualization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Visualization</h2>
+
+<p>This package provides a suit of very useful utilities to analyze human
+spatio-temporal mobility data.</p>
+
+<ul>
+<li>
+<code>plot.traj3d</code> (<code>voronoi3d</code>)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/caesar0301/movr/master/examples/mobility3d.png" alt="draw_mobility3d_example"></p>
+
+<ul>
+<li>
+<code>plog.flowmap</code> (using mobile data from Senegal, <a href="http://www.d4d.orange.com/en/Accueil">D4D challenge 2014</a>)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/caesar0301/movr/master/examples/flowmap.png" alt="draw_flowmap_example"></p>
+
+<ul>
+<li>
+<code>map3d</code> (3d map layer for <code>rgl</code> package)</li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/caesar0301/movr/master/examples/map3d-rgl.png" alt="map3d_example"></p>
+
+<h2>
+<a id="bug-report" class="anchor" href="#bug-report" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bug Report</h2>
+
+<ul>
+<li><a href="https://github.com/caesar0301/movr/issues">https://github.com/caesar0301/movr/issues</a></li>
+</ul>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author</h2>
+
+<p>© Xiaming Chen - <a href="mailto:chenxm35@gmail.com">chenxm35@gmail.com</a></p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/caesar0301">caesar0301</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
